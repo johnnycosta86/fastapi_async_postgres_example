@@ -1,5 +1,28 @@
+Project example using the FastAPI framework with asynchronous access to the Postgres database.
+
+Within the project, execute:
+
+docker-compose up
+
+This command starts the postgre database container.
+
+The ideal is to create a virtual environment (pipenv), and then execute the commands below:
+
+pip install fastapi
+pip install uvicorn
+pip install sqlalchemy
+pip install databases
+pip install passlib
+pip install psycopg2
+pip install pydantic
+pip install python-jose
+pip install pyjwt
+pip install asyncpg
+
+After creating the virtual environment and installing the dependencies, start the server with the command below:
+
 uvicorn app.src.main:app --reload
 
-sudo apt-get install libpq-dev python-dev
+Open the browser in the url below to access OpenAPI (old swagger)...
 
-pip install pydantic[email]
+http://127.0.0.1:8000/docs#
