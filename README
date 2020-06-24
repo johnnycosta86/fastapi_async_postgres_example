@@ -1,0 +1,5 @@
+uvicorn app.src.main:app --reload
+
+sudo apt-get install libpq-dev python-dev
+
+pip install pydantic[email]
