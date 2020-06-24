@@ -21,7 +21,7 @@ pip install asyncpg
 
 After creating the virtual environment and installing the dependencies, start the server with the command below:
 
-uvicorn app.src.main:app --reload
+uvicorn main:app --reload
 
 Open the browser in the url below to access OpenAPI (old swagger)...
 
